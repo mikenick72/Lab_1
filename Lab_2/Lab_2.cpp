@@ -9,7 +9,7 @@ int main()
 {
     float A;
     float B;
-
+    fuu
     cout << "Please enter a value for A:";
     cin >> A;
 
