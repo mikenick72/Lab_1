@@ -7,20 +7,35 @@ using namespace std;
 
 int main()
 {
+    cout << "Hello, I am Michael and will be solving the equation:\n";
+    cout << "Ax + B = 0\n";
+    cout << "Solving for x\n\n";
+
     float A;
     float B;
-    fuu
-    cout << "Please enter a value for A:";
+    float X;
+
+    cout << "Please enter a value for A: ";
     cin >> A;
 
-    cout << "A= " << A << endl;
-    
-    B = (A * 4) + 1;
+    cout << "Please enter a value for B: ";
+    cin >> B;
 
-    cout << "And B= " << B << endl; 
+    cout << "\nSolving " << A << "x + " << B << " = 0\n\n";
 
-    
+    if (A == 0) {
+        cout << "A cannot be 0. This equation is not linear. This is an error\n";
+    }
+    else {
+        X = -B / A;
+        cout << "Answer:\n";
+        cout << "x = " << X << endl;
+    }
+
+    return 0;
+
 }
+
     
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
