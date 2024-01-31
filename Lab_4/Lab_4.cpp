@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+
 using namespace std;
 
 void printMenu() {
@@ -117,9 +118,6 @@ int main() {
         cin >> again;
     } while (again == 'y' || again == 'Y');
 }
-
-
-
 
 
 
